@@ -8,6 +8,8 @@ public class Practice
         System.out.print("Введите дату рождения в формате день-месяц-год: ");
         String date = scanner.nextLine();
 
+        scanner.close();
+
         String zodiacSign = showZodiac(date);
         String japanYear = showJapanYear(date);
 
