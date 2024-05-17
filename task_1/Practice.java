@@ -77,7 +77,6 @@ public class Practice
         String[] cutDate = date.split(" ");
 
         String yearString = cutDate[2];
-        // String newMonth;
 
         if (yearString.matches(".*[^0-9]$"))
         {
